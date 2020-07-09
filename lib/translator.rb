@@ -19,7 +19,6 @@ def get_english_meaning(file_path, emoticon)
   new_library = load_library(file_path)
   emoticon = library.keys.find do |key|
     library[key][:japanese] == emoticon
-  end
     if emoticon == emoticon
       return new_library[key][:english]
     else
