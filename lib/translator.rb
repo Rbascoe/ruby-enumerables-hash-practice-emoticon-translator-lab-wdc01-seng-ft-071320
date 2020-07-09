@@ -21,7 +21,7 @@ def get_english_meaning(file_path, emoticon)
     new_library[key][:japanese] == emoticon
   end
   if emoticon == nil
-    puts "Sorry, that emoticon was not found"
+    return "Sorry, that emoticon was not found"
   end
   emoticon
 end
