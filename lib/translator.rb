@@ -23,6 +23,7 @@ def get_english_meaning(file_path, emoticon)
       return new_library[key][:english]
     else
       puts "Sorry, that emoticon was not found"
+    end
   end
 end
 
